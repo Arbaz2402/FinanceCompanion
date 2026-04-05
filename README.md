@@ -13,23 +13,21 @@
 <div align="center">
   <table style="width: 100%; border-collapse: collapse;">
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/7df1646f-e5ec-4d02-9b37-3bd467648a07" width="260" alt="App Screen 11"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/fe35ff65-adab-4c1e-8700-3677429ba0e5" width="260" alt="App Screen 10"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/8398eda2-96fc-4ab3-919e-4ea6dc5e9902" width="260" alt="App Screen 9"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/7df1646f-e5ec-4d02-9b37-3bd467648a07" width="200" alt="App Screen 11"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/fe35ff65-adab-4c1e-8700-3677429ba0e5" width="200" alt="App Screen 10"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/8398eda2-96fc-4ab3-919e-4ea6dc5e9902" width="200" alt="App Screen 9"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/88b9ae73-c510-4e1e-845a-45841beb5d30" width="200" alt="App Screen 8"/></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/88b9ae73-c510-4e1e-845a-45841beb5d30" width="260" alt="App Screen 8"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/ac1b194d-d9fe-4ee7-8b05-7036df63a041" width="260" alt="App Screen 7"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/35adeef8-8d68-46c5-b2f8-d6524deaac16" width="260" alt="App Screen 6"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/ac1b194d-d9fe-4ee7-8b05-7036df63a041" width="200" alt="App Screen 7"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/35adeef8-8d68-46c5-b2f8-d6524deaac16" width="200" alt="App Screen 6"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/e4801bc2-77ca-4088-be60-cad5c5323add" width="200" alt="App Screen 5"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/8aa27dc2-df61-4f70-bc4c-70bd6ddb62f1" width="200" alt="App Screen 4"/></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/e4801bc2-77ca-4088-be60-cad5c5323add" width="260" alt="App Screen 5"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/8aa27dc2-df61-4f70-bc4c-70bd6ddb62f1" width="260" alt="App Screen 4"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/28f2aee1-6b52-4d27-9509-72e449b4a6ea" width="260" alt="App Screen 3"/></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://github.com/user-attachments/assets/4e719b24-c061-4e23-bb33-5770c5b92c95" width="260" alt="App Screen 2"/></td>
-      <td align="center"><img src="https://github.com/user-attachments/assets/3aaf3838-87e4-4e7f-8767-193fbd9e68fc" width="260" alt="App Screen 1"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/28f2aee1-6b52-4d27-9509-72e449b4a6ea" width="200" alt="App Screen 3"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/4e719b24-c061-4e23-bb33-5770c5b92c95" width="200" alt="App Screen 2"/></td>
+      <td align="center"><img src="https://github.com/user-attachments/assets/3aaf3838-87e4-4e7f-8767-193fbd9e68fc" width="200" alt="App Screen 1"/></td>
       <td></td>
     </tr>
   </table>
