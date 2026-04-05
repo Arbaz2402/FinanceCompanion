@@ -10,10 +10,8 @@
 
 ## 📱 Visual Snapshot
 
-| **Smart Dashboard** | **Intelligent Insights** | **Dream Tracking** |
-| :---: | :---: | :---: |
-| ![Dashboard](https://via.placeholder.com/260x550?text=Dashboard) | ![Insights](https://via.placeholder.com/260x550?text=Insights) | ![Goals](https://via.placeholder.com/260x550?text=Goals) |
-| *Unified Snapshot & Streaks* | *Interactive Analytics* | *Progress & History* |
+![WhatsApp Image 2026-04-05 at 22 41 26](https://github.com/user-attachments/assets/7df1646f-e5ec-4d02-9b37-3bd467648a07)
+
 
 ---
 
