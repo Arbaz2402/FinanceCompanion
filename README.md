@@ -1,80 +1,81 @@
 # FinanceCompanion 💰
 
-**"Master your money, one habit at a time."**
+> **Master your money with a premium, privacy-focused iOS experience.**
 
-Imagine having a financial expert in your pocket that doesn't just record your spending, but helps you understand your habits and reach your dreams. **FinanceCompanion** is a premium iOS application designed to turn the "chore" of money management into a rewarding daily habit.
-
----
-
-## 🤔 Why FinanceCompanion?
-
-Most finance apps are either too simple (just a list) or too complex (spreadsheets on a phone). **FinanceCompanion** finds the "Sweet Spot":
-- **Total Privacy**: Your financial life is private. We use **no servers and no accounts**. Every byte of data stays on your iPhone.
-- **Smart Analytics**: It doesn't just show numbers; it tells you *where* your money goes and *how* your habits are changing.
-- **Goal-Driven**: Instead of just tracking what's gone, we help you focus on what's coming—your next vacation, car, or emergency fund.
+[![Platform](https://img.shields.io/badge/Platform-iOS%2017.0+-blue.svg)](https://developer.apple.com/ios/)
+[![Swift](https://img.shields.io/badge/Swift-5.10-orange.svg)](https://developer.apple.com/swift/)
+[![SwiftData](https://img.shields.io/badge/Database-SwiftData-teal.svg)](https://developer.apple.com/xcode/swiftdata/)
 
 ---
 
-## 🚀 The User Journey: How it Works
+## 📱 Visual Snapshot
 
-### 1. The Morning Snapshot (Dashboard)
-Every time you open the app, you're greeted with a **Dynamic Dashboard**. Depending on the time of day, it welcomes you and shows your current "Financial Health." You'll see your total balance, your progress on savings goals, and a **No-Spend Streak**—a motivational tool that counts how many days you've gone without unnecessary expenses.
-
-### 2. Effortless Logging (Transactions)
-Spending money happens in seconds, and logging it should too. With a **high-speed entry form**, a smart **category grid**, and **haptic feedback** (vibrations that confirm your actions), you can record an expense or income in less than 5 seconds. You can add notes, choose categories like "Shopping" or "Bills," and even backdate transactions.
-
-### 3. Finding Patterns (Smart Insights)
-At the end of the week, head to the **Insights** tab. Here, the app turns your raw data into beautiful, interactive charts. 
-- **The Trend Chart**: See your Income vs. Expenses side-by-side to ensure you're living within your means.
-- **The Spending Donut**: A visual breakdown of your categories. Are you spending too much on "Food & Drinks"? The app will tell you.
-- **The Habit Detector**: It automatically identifies your most frequent spending locations and highest spending categories.
-
-### 4. Dreaming & Saving (Goals)
-This is where the magic happens. Create a **Savings Goal** for anything you want. 
-- Set a target (e.g., ₹50,000 for a New MacBook).
-- Add money to your goal whenever you can.
-- The app **automatically calculates the math**, updates your balance, and shows a beautiful progress bar that turns green as you get closer to your dream.
-
----
-
-## 📱 Visual Tour
-
-| Your Financial Hub | Smart Habit Analysis | Dream Tracking |
+| **Smart Dashboard** | **Intelligent Insights** | **Dream Tracking** |
 | :---: | :---: | :---: |
 | ![Dashboard](https://via.placeholder.com/260x550?text=Dashboard) | ![Insights](https://via.placeholder.com/260x550?text=Insights) | ![Goals](https://via.placeholder.com/260x550?text=Goals) |
-| *Streaks & Snapshots* | *Charts & Patterns* | *Progress & History* |
+| *Unified Snapshot & Streaks* | *Interactive Analytics* | *Progress & History* |
 
 ---
 
-## 💎 The "Premium" Details
+## ✨ Why Choose FinanceCompanion?
 
-- **Haptics**: The app feels "physical"—you'll feel a subtle tap when you save a goal or pick a category.
-- **Intelligent Tips**: Every day, the app gives you a new piece of financial advice to keep you sharp.
-- **Fluid Animations**: Every transition is smooth, making the app feel like a high-end tool.
-- **Dark Mode Support**: Beautifully optimized for both light and dark environments.
+Most finance trackers feel like work. **FinanceCompanion** feels like progress. It’s designed to be fast, beautiful, and completely private.
 
----
+### 🔒 Privacy by Design
+Your financial life belongs to you. FinanceCompanion has **no servers, no trackers, and no accounts**. Every piece of data is stored securely on your device using Apple's latest encryption.
 
-## 🛠 Built with Modern Tech
+### ⚡ Lightning Fast Logging
+Don't let tracking slow you down. Record expenses in seconds with a high-speed category grid and tactile haptic feedback.
 
-For developers and tech-enthusiasts, the app is a showcase of the latest Apple technologies:
-- **SwiftUI**: For a reactive, modern user interface.
-- **SwiftData**: The cutting-edge way to store data locally and securely.
-- **Swift Charts**: High-performance, native data visualizations.
-- **MVVM Architecture**: A clean, professional code structure that is easy to maintain and scale.
+### 🎯 Goal-Oriented Saving
+Stop just watching your money leave. Start watching it grow toward your dreams with gamified savings goals and visual progress tracking.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Key Features
+
+### 🏦 Intelligent Hub
+- **Dynamic Context**: Greetings that adapt to your time of day.
+- **Unified Balance**: Real-time calculation of your entire financial state.
+- **No-Spend Streak**: Motivational counters to build financial discipline.
+- **Goal Carousel**: Snapping interface to monitor all your dreams at once.
+
+### 📊 Advanced Analytics
+- **Smart Trend Charts**: Side-by-side Income vs. Expense comparisons.
+- **Category Breakdown**: Visual donut charts showing exactly where your money goes.
+- **Habit Detection**: Automatic identification of your most frequent spending patterns.
+- **Time Granularity**: Switch between Day, Week, and Month views instantly.
+
+### 📝 Precision Management
+- **Full History**: Advanced filtering by date, type, or specific month.
+- **Global Search**: Find any transaction by notes or categories instantly.
+- **Swipe Interactions**: Native iOS gestures for seamless editing and deletion.
+- **Automated Bookkeeping**: Goal deposits automatically sync with your transaction history.
+
+---
+
+## 🛠 Technical Stack
+
+| Feature | Implementation |
+| :--- | :--- |
+| **User Interface** | SwiftUI (Modern Declarative UI) |
+| **Data Persistence** | SwiftData (Schema-driven local storage) |
+| **Visualizations** | Swift Charts (Native performance) |
+| **Architecture** | MVVM + Observation (Clean & Maintainable) |
+| **Haptics** | UIKit Feedback Generator (Premium feel) |
+
+---
+
+## 🏁 Getting Started
 
 ### Prerequisites
-- An iPhone or Mac with **Xcode 15.0+** installed.
-- iOS 17.0+ compatibility.
+- Xcode 15.0+
+- iOS 17.0+ (Device or Simulator)
 
-### Installation
+### Quick Setup
 1. **Clone**: `git clone https://github.com/Arbaz2402/FinanceCompanion.git`
 2. **Open**: Open `FinanceCompanion.xcodeproj` in Xcode.
-3. **Run**: Select your device and press the **Play** button (Cmd + R).
+3. **Run**: Select your target device and press `Cmd + R`.
 
 ---
-*Created with ❤️ to help you build a better financial future.*
+*Created with ❤️ for a better financial future.*
