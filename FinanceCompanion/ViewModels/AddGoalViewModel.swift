@@ -23,7 +23,6 @@ final class AddGoalViewModel {
         )
         context.insert(goal)
         
-        // If there's an initial amount, create a transaction for it
         if currentAmount > 0 {
             let initialSavingsTransaction = Transaction(
                 amount: currentAmount,

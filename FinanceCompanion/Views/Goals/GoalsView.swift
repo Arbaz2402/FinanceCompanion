@@ -85,20 +85,15 @@ struct GoalsView: View {
     
     private func deleteGoal(_ goal: SavingsGoal) {
         withAnimation {
-            // 1. Find and delete all associated transactions
-            // This ensures balance and history reflect the removal
             let associatedTransactions = allTransactions.filter { $0.goalID == goal.id }
             for tx in associatedTransactions {
                 modelContext.delete(tx)
             }
             
-            // 2. Delete the goal itself
             modelContext.delete(goal)
             
-            // 3. Save changes
             try? modelContext.save()
             
-            // 4. Provide feedback
             HapticManager.notification(type: .success)
         }
     }

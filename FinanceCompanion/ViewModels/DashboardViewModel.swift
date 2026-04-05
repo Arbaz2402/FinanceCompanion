@@ -33,28 +33,22 @@ final class DashboardViewModel {
         let expenses = transactions.filter { $0.type == .expense && $0.category != .savings }
             .map { calendar.startOfDay(for: $0.date) }
         
-        // If there are no expenses at all, we don't have a streak yet
         guard !expenses.isEmpty else { return 0 }
         
-        // If there's an expense today, the streak is broken (0)
         if expenses.contains(today) { return 0 }
         
         var streak = 0
         var checkDay = today
         
-        // Find the oldest expense to set a limit
         let oldestExpense = expenses.min() ?? today
         
-        // Count consecutive days going backwards from yesterday
         while true {
             let previousDay = calendar.date(byAdding: .day, value: -1, to: checkDay)!
             
-            // If we find an expense on this previous day, the streak ends
             if expenses.contains(previousDay) {
                 break
             }
             
-            // If we've gone back further than our oldest expense, the streak ends
             if previousDay < oldestExpense {
                 break
             }
@@ -62,7 +56,6 @@ final class DashboardViewModel {
             streak += 1
             checkDay = previousDay
             
-            // Safety break
             if streak >= 365 { break }
         }
         return streak
@@ -89,7 +82,6 @@ final class DashboardViewModel {
             "Check your progress towards your goals today.",
             "A no-spend day is a win for your future self."
         ]
-        // Use the day of the year to pick a consistent tip for the day
         let dayOfYear = Calendar.current.ordinality(of: .day, in: .year, for: .now) ?? 0
         return tips[dayOfYear % tips.count]
     }
